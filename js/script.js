@@ -15,7 +15,7 @@ function updateHeader() {
 
   
   copyCountEl.textContent = state.copies + ' copy';
-  // ------------------------
+ 
 }
 
 
@@ -31,9 +31,6 @@ function addHistory(name, number) {
   const item = document.createElement('div');
   item.className = 'history-item';
   
-  // ---------------- CHANGE MARKED ----------------
-  // Removed duplicate time from left side
-  // Now time only shows on right
   item.innerHTML = `
     <div class="history-left">
       <div>${name}</div>
@@ -93,7 +90,7 @@ document.querySelectorAll('.card').forEach(card => {
     alert(`Calling ${name} — ${number}`);
     state.coins -= 20;
     updateHeader();
-    addHistory(name, number); // Add history after call
+    addHistory(name, number);
   });
 });
 
