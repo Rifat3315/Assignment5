@@ -42,13 +42,13 @@ a{color:inherit}
   width:44px;
   height:44px;
   border-radius:10px;
-  background:none; /* green removed */
+  background:none; 
   display:flex;
   align-items:center;
   justify-content:center;
   overflow:hidden;
   background-color: #e8d4d4; 
-  border: 1px solid rgba(0,0,0,0.1); /* subtle light border */
+  border: 1px solid rgba(0,0,0,0.1); 
 }
 
 
@@ -97,7 +97,7 @@ a{color:inherit}
 }
 
 .clear-btn {
-  background-color: #16a34a; /* green */
+  background-color: #16a34a; 
   color: white;
   border: none;
   padding: 6px 10px;
